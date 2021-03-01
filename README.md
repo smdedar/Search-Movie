@@ -1,4 +1,9 @@
-# Getting Started with Create React App
+## Search Movie
+---
+![ezgif-6-aee483c2af4f](https://user-images.githubusercontent.com/60034035/109465370-48cadb80-7a92-11eb-80f6-1f6f3e86472e.gif)
+
+
+### Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
