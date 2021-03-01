@@ -26,6 +26,10 @@ const MovieList = () => {
   const handleChange = (e) => {
     let value = e.target.value;
 
+    if (value ==''){
+      value="star"
+    }
+
     setsearch({ ...search, searchMovie: value });
 
     console.log(search);
