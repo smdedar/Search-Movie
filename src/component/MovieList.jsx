@@ -26,8 +26,8 @@ const MovieList = () => {
   const handleChange = (e) => {
     let value = e.target.value;
 
-    if (value ==''){
-      value="star"
+    if (value == "") {
+      value = "star";
     }
 
     setsearch({ ...search, searchMovie: value });
@@ -54,9 +54,9 @@ const MovieList = () => {
       </div>
 
       <div className="columns is-multiline">
-      {movies.map((movie) => (
-        <List movie={movie}/>
-  ))}
+        {movies.map((movie) => (
+          <List movie={movie} />
+        ))}
       </div>
     </div>
   );

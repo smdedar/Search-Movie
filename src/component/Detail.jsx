@@ -1,4 +1,5 @@
 import React from "react";
+import CastSection from './CastSection'
 
 const Detail = ({ movieDetail }) => {
   return (
@@ -80,6 +81,7 @@ const Detail = ({ movieDetail }) => {
                 </div>
               </div>
             </div>
+            <CastSection movieId={movieDetail.id} />
           </div>
         </div>
       </div>
