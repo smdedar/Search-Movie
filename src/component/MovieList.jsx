@@ -12,9 +12,7 @@ const MovieList = () => {
 
   useEffect(() => {
     fetch(
-      "https://api.themoviedb.org/3/search/movie?api_key=0dd443fc17bbbbadbda9d5d335630fa1&language=en-US&query=" +
-        search.searchMovie +
-        "&page=1&include_adult=false"
+      `https://api.themoviedb.org/3/search/movie?api_key=0dd443fc17bbbbadbda9d5d335630fa1&language=en-US&query=${search.searchMovie}&page=1&include_adult=false`
     )
       .then((res) => res.json())
       .then((result) => {

@@ -6,9 +6,7 @@ const CastSection = (props) => {
   const [casts, setcasts] = useState();
   useEffect(() => {
     fetch(
-      "https://api.themoviedb.org/3/movie/" +
-        props.movieId +
-        "/credits?api_key=0dd443fc17bbbbadbda9d5d335630fa1&language=en-US"
+      `https://api.themoviedb.org/3/movie/${props.movieId}/credits?api_key=0dd443fc17bbbbadbda9d5d335630fa1&language=en-US`
     )
       .then((res) => res.json())
       .then((result) => {
